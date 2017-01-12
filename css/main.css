@@ -1,5 +1,8 @@
+html {
+  font-family: Georgia, serif;
+}
+
 .banner-txt {
-  font-family: Georgia, normal;
   background-color: #495562;
   color: #fff;
 }
@@ -7,10 +10,25 @@
 .img-flex {
   width: 100%;
   display: block;
+  max-height: 500px;
 }
 
 .btn-ghost {
   color: #fff;
   border-color: #97a49b;
   font-weight: bold;
+}
+
+.btn-ghost:hover {
+  color: #495562;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-btn {
+    text-align: right;
+  }
+
 }
