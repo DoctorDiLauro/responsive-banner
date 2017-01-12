@@ -1,8 +1,16 @@
-html {
+.banner-txt {
   font-family: Georgia, normal;
+  background-color: #495562;
+  color: #fff;
 }
 
 .img-flex {
   width: 100%;
   display: block;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-color: #97a49b;
+  font-weight: bold;
 }
